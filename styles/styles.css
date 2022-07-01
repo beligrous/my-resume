@@ -263,12 +263,15 @@ body {
 
 @media screen and (max-width: 479px) {
   .main {
+    width: auto;
+    margin: auto;
     display: flex;
     flex-direction: column-reverse;
   }
 
   .sidebar {
     width: screen 100%;
+    margin: auto;
   }
 
   .photo {
@@ -276,8 +279,11 @@ body {
   }
 
   .main_content {
+    width: auto;
     font-size: 50%;
-    width: 100%;
-    margin: 0, 20px;
+    margin: auto;
+    padding: 0%;
   }
+  .about {
+    margin: auto;
 }
