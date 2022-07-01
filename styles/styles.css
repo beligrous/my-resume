@@ -177,7 +177,6 @@ body {
 /* sidebar styles */
 .sidebar {
   background-color: #1e2939;
-  width: 370;
   padding-top: 40px;
   margin-left: 40px;
 }
@@ -270,20 +269,26 @@ body {
   }
 
   .sidebar {
-    width: screen 100%;
-    margin: auto;
+    width: auto;
+    margin: 0%;
   }
 
   .photo {
-    width: screen 100%;
+    width: 100%;
   }
 
   .main_content {
+    box-sizing: border-box;
     width: auto;
-    font-size: 50%;
     margin: auto;
     padding: 0%;
   }
   .about {
     margin: auto;
+    padding: auto;
+  }
+
+  .about_description {
+    width: auto;
+  }
 }
