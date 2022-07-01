@@ -2,6 +2,34 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #e5e5e5;
 }
+
+.head {
+  width: 1000px;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 auto;
+}
+
+.head_title {
+  color: #fb6d3a;
+}
+
+.header_list {
+  display: inline;
+  margin-left: auto;
+}
+
+.header_text {
+  color: #000000;
+}
+
 /* main styles */
 .main {
   display: flex;
