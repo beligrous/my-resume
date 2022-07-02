@@ -307,6 +307,14 @@ body {
     margin: 0%;
   }
 
+  .header {
+    margin: 0%;
+  }
+
+  .head_title {
+    padding: 0%;
+  }
+
   .sidebar {
     width: auto;
     margin: 0%;
