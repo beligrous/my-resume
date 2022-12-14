@@ -17,17 +17,17 @@
     <header class="head">
       <div class="header">
         <h4 class="head_title">Resume list</h4>
-        <ul>
-          <li class="header_list">
+        <ul class="header_list">
+          <li class="header_item">
             <a class="header_text" href="#projects">projects</a>
           </li>
-          <li class="header_list">
+          <li class="header_item">
             <a class="header_text" href="#work">work</a>
           </li>
-          <li class="header_list">
+          <li class="header_item">
             <a class="header_text" href="#education">education</a>
           </li>
-          <li class="header_list">
+          <li class="header_item">
             <a class="header_text" href="#contacts">contacts</a>
           </li>
         </ul>
@@ -54,11 +54,13 @@
         <!--Projects-->
         <div id="projects" class="projects">
           <h3 class="title">Projects</h3>
-          <ol class="projects_list">
+          <ol class="list">
             <li class="project_item">
               <span class="project">
-                <a href="https://hellenglish.goit.global/" class="project_link"
-                  >https://hellenglish.goit.global/</a
+                <a
+                  href="https://beligrous.github.io/goit-markup-hw-08/"
+                  class="project_link"
+                  >WebStudio</a
                 >
                 ............. <span class="project_bracket">[</span> HTML5, CSS3
                 <span class="project_bracket">]</span>
@@ -75,11 +77,13 @@
             </li>
             <li class="project_item">
               <span class="project">
-                <a href="https://kidslike.goit.global/" class="project_link"
-                  >https://kidslike.goit.global/</a
+                <a
+                  href="https://github.com/annabramarova/x10-project-htmlcss"
+                  class="project_link"
+                  >3D Freedom</a
                 >
                 .......................<span class="project_bracket">[</span>
-                React.js, Node.js <span class="project_bracket">]</span>
+                TeamWork on HTML, CSS <span class="project_bracket">]</span>
               </span>
             </li>
           </ol>
@@ -97,7 +101,7 @@
               February 2022 - up to now
               <span class="line"> | </span>Kharkiv,Ukraine
             </p>
-            <ul class="work_list">
+            <ul class="list">
               <li class="work_list_item">Creation and layout of web sites</li>
               <li class="work_list_item">
                 The basics of programming on JavaScript
@@ -119,7 +123,7 @@
               October 2016 - February 2022
               <span class="line"> | </span>Kharkiv,Ukraine
             </p>
-            <ul class="work_list">
+            <ul class="list">
               <li class="work_list_item">
                 Sales managment, presentations, customers supporting.
               </li>
@@ -140,7 +144,7 @@
               June 2010 - August 2016
               <span class="line"> | </span> Lugansk,Ukraine
             </p>
-            <ul class="work_list">
+            <ul class="list">
               <li class="work_list_item">
                 Sales management, work with customers
               </li>
@@ -156,12 +160,26 @@
         <!-- Education -->
         <div id="education" class="education">
           <h3 class="title">Education</h3>
-          <h4 class="university">East Ukrainian National University V. Dahl</h4>
-          <h4 class="faculty">mechanical engineer</h4>
-          <p class="period">
-            September 2004 - July 2009
-            <span class="line"> | </span> Lugansk,Ukraine
-          </p>
+          <ul class="list">
+            <li>
+              <h4 class="university">IT School GOIT</h4>
+              <h4 class="faculty">Full-stack</h4>
+              <p class="period">
+                July 2022 - until now.
+                <span class="line"> | </span> Kyiv,Ukraine
+              </p>
+            </li>
+            <li>
+              <h4 class="university">
+                East Ukrainian National University V. Dahl
+              </h4>
+              <h4 class="faculty">mechanical engineer</h4>
+              <p class="period">
+                September 2004 - July 2009
+                <span class="line"> | </span> Lugansk,Ukraine
+              </p>
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -191,49 +209,67 @@
               >
             </p>
           </div>
+          <p class="contact_link">Kharkiv, Ukraine</p>
         </div>
         <!--Tech Skills-->
         <div class="tech">
           <h3 class="sidebar_title">Tech Skills</h3>
-          <ul class="tech_skills_list">
-            <li class="tech_skills_item">
-              <span class="tech_skills_text">HTML5</span>
+          <ul class="skills_list">
+            <li class="skills_item">
+              <span class="skills_text">HTML5</span>
             </li>
-            <li class="tech_skills_item">
-              <span class="tech_skills_text">CSS3</span>
+            <li class="skills_item">
+              <span class="skills_text">CSS3/SASS</span>
             </li>
-            <li class="tech_skills_item">
-              <span class="tech_skills_text">GIT</span>
+            <li class="skills_item">
+              <span class="skills_text">GIT</span>
             </li>
-            <li class="tech_skills_item">
-              <span class="tech_skills_text">WebPack</span>
+            <li class="skills_item">
+              <span class="skills_text">WebPack/Parcel</span>
             </li>
-            <li class="tech_skills_item">
-              <span class="tech_skills_text">JavaScript</span>
+            <li class="skills_item">
+              <span class="skills_text">JavaScript</span>
             </li>
-            <li class="tech_skills_item">
+            <li class="skills_item">
+              <span class="skills_text">REST API</span>
+            </li>
+            <!-- <li class="tech_skills_item">
               <span class="tech_skills_text">React.js</span>
-            </li>
-            <li class="tech_skills_item">
+            </li> -->
+            <!-- <li class="tech_skills_item">
               <span class="tech_skills_text">Node.js</span>
-            </li>
+            </li> -->
           </ul>
         </div>
         <!-- Soft Skills -->
         <div class="soft">
           <h3 class="sidebar_title">Soft Skills</h3>
-          <ul class="soft_skills_list">
-            <li class="soft_skills_item">
-              <span class="soft_skills_text">TeamWork</span>
+          <ul class="skills_list">
+            <li class="skills_item">
+              <span class="skills_text">TeamWork</span>
             </li>
-            <li class="soft_skills_item">
-              <span class="soft_skills_text">Scrum</span>
+            <li class="skills_item">
+              <span class="skills_text">Scrum</span>
             </li>
-            <li class="soft_skills_item">
-              <span class="soft_skills_text">Agile</span>
+            <li class="skills_item">
+              <span class="skills_text">Agile</span>
             </li>
-            <li class="soft_skills_item">
+            <!-- <li class="soft_skills_item">
               <span class="soft_skills_text">GTD</span>
+            </li> -->
+          </ul>
+        </div>
+        <div class="soft">
+          <h3 class="sidebar_title">Languages</h3>
+          <ul class="skills_list">
+            <li class="skills_item">
+              <span class="skills_text">English - pre-intermidiate</span>
+            </li>
+            <li class="skills_item">
+              <span class="skills_text">Ukrainian - native</span>
+            </li>
+            <li class="skills_item">
+              <span class="skills_text">Russian - native</span>
             </li>
           </ul>
         </div>
@@ -254,6 +290,18 @@
           <li class="header_list">
             <a class="header_text" href="https://www.instagram.com/beligrous/"
               >Instagram</a
+            >
+          </li>
+          <li class="header_list">
+            <a class="header_text" href="https://github.com/beligrous"
+              >GITHub</a
+            >
+          </li>
+          <li class="header_list">
+            <a
+              class="header_text"
+              href="https://www.linkedin.com/in/ihor-belous-0ab504243/"
+              >LinkedIn</a
             >
           </li>
         </ul>
